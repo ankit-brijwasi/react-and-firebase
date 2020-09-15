@@ -1,4 +1,22 @@
-.App {
-  font-family: sans-serif;
+:root {
+  --primary: #f6f5f5;
+  --secondary: #145374;
+  --warning: #ee6f57;
+  --error: crimson;
+}
+
+body {
+  font-family: "Noto serif";
   text-align: center;
+  font-size: 16px;
+  background-color: var(--primary);
+}
+
+h1 {
+  font-size: 2.3rem;
+  color: var(--secondary);
+}
+
+.bold {
+  font-weight: bold;
 }
